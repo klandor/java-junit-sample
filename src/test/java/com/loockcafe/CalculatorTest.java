@@ -57,4 +57,12 @@ public class CalculatorTest {
         assertEquals(expected, result);
     }
 
+        @Test
+    public void square() throws Exception {
+        int a = 2;
+        int result = this.cal.square(a);
+        int expected = 4;
+        assertEquals(expected, result);
+    }
+
 }
